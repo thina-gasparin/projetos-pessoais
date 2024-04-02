@@ -13,11 +13,8 @@ do{
             scanf("%d",&a);
         }
 
-
         int matriz[a][a];
-
         meia=a/2;
-
 
  matriz[meia][meia]=1;
  cr=2;
@@ -67,9 +64,6 @@ do{
         num=num+2;
 }
 
-
-
-
 for(c=0;c<a;c++){
         for(cont=0;cont<a;cont++){
                 if(matriz[c][cont]<10)
@@ -79,7 +73,6 @@ for(c=0;c<a;c++){
         }
         printf("\n");
 }
-
 
 printf("Deseja utilizar o programa novamente?  1-SIM    2-NÃO\n");
 scanf("%d",&r);
